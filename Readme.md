@@ -1,6 +1,3 @@
-Sure, here is a simple `README.md` file that you can use for your Python OOPs POC:
-
-```markdown
 # Online Food Delivery and Zoom Car Rent Python POC
 
 ## Online Food Delivery
@@ -74,6 +71,3 @@ print(zcr.handle_damage(5000.0))
 4. Python files are organized as a package and can be imported in another folder.
 
 Feel free to explore and test various orders and rides using the provided use cases.
-```
-
-This `README.md` file provides an overview of the Online Food Delivery and Zoom Car Rent POCs, along with usage examples and coding conventions. You can customize it further based on your project's needs.
