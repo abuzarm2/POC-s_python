@@ -9,6 +9,16 @@ class FoodDelivery:
         }
         self.cart = {}
 
+    def show_all_food_items(self):
+        try:
+            for category, food_items in self.food_items.items():
+                print(f"{category} Food:")
+                for items in food_items:
+                    print(f"  - {items}")
+                print()  # Empty line for better readability
+        except Exception as e:
+            raise e
+        
     def show_available_items(self, category):
         try:
             return self.food_items[category]

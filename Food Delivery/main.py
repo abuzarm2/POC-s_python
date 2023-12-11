@@ -4,6 +4,7 @@ def main():
     fd = FoodDelivery()
 
     try:
+        fd.show_all_food_items()
         print(fd.show_available_items("North Indian"))
         print(fd.show_price("North Indian"))
         print(fd.apply_discount("North Indian", "pythonlearner"))
